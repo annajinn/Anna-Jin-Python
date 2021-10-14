@@ -1,0 +1,8 @@
+print('Hello, world!')
+print(" ------------------------------------------------")
+print("|                                                |")
+print("|    01HelloWorld                                |")
+print("|    Name : Anna                                 |")
+print("|    Version : 01                                |")
+print("|                                                |")
+print(" ------------------------------------------------")

@@ -1,6 +1,6 @@
 print(" ------------------------------------------------")
 print("|                                                |")
-print("|    01GoodbyeWorld                              |")
+print("|    01GoodbyePerson                             |")
 print("|    Name : Anna                                 |")
 print("|    Version : 01                                |")
 print("|                                                |")

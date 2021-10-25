@@ -5,5 +5,5 @@ print("|    Name : Anna                                 |")
 print("|    Version : 01                                |")
 print("|                                                |")
 print(" ------------------------------------------------")
-for x in range(499):
+for x in range(1,499):
     print(x)

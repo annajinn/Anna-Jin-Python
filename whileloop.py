@@ -1,9 +1,13 @@
 print(" ------------------------------------------------")
 print("|                                                |")
-print("|    05forLoop                                   |")
+print("|    06whileLoop                                 |")
 print("|    Name : Anna                                 |")
 print("|    Version : 01                                |")
 print("|                                                |")
 print(" ------------------------------------------------")
-for x in range(1,500):
-    print(x)
+x=input("What is the name of this subject ")
+y = ("IST")
+while y > ("IST"):
+  print("Congratulations!!")
+else:
+      print("Not correct - try again")

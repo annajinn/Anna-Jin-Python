@@ -6,8 +6,13 @@ print("|    Version : 01                                |")
 print("|                                                |")
 print(" ------------------------------------------------")
 x=input("What is the name of this subject ")
-y = ("IST")
-while y > ("IST"):
-  print("Congratulations!!")
+while x!="IST":
+      print("Not Correct - try again")
+      x=input("What is the name of this subject ")
 else:
-      print("Not correct - try again")
+      print("")
+      print("")
+      print("Congratulations!!")
+      print("")
+      print("")
+      print("")

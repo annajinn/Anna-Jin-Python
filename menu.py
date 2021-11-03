@@ -53,76 +53,58 @@ def x():
     print("no")
 
 
-print(" ------------------------------------------------")
-print("|                                                |")
-print("|    07Menu                                      |")
-print("|    Name : Anna                                 |")
-print("|    Version : 01                                |")
-print("|                                                |")
-print(" ------------------------------------------------")
-print("")
-print("1. Hello World")
-print("2. Goodbye World")
-print("3. Goodbye Person")
-print("4. Good Teacher")
-print("5. forLoop")
-print("6. whileLoop")
-print("7. string Loop")
-print("8. convert to ascii")
-print("9. Encode to string")
-print("x. To Exit")
-p=input("Enter an option ")
-
-while p != "x":
+while True:
+    print(" ------------------------------------------------")
+    print("|                                                |")
+    print("|    07Menu                                      |")
+    print("|    Name : Anna                                 |")
+    print("|    Version : 01                                |")
+    print("|                                                |")
+    print(" ------------------------------------------------")
+    print("")
+    print("1. Hello World")
+    print("2. Goodbye World")
+    print("3. Goodbye Person")
+    print("4. Good Teacher")
+    print("5. forLoop")
+    print("6. whileLoop")
+    print("7. string Loop")
+    print("8. convert to ascii")
+    print("9. Encode to string")
+    print("x. To Exit")
+    p=input("Enter an option ")
+    correct=["1","2","3","4","5","6","7","8","9","x"]
     start()
-    print("Invalid Option")
-    end()
+    
+    if p in correct:
+        if p=="x":
+            helloworld()
+            
+        elif p=="2":
+            goodbyeworld()
 
-    if p=="1":
-        start()
-        helloworld()
-        end()
+        elif p=="3":
+            goodbyeperson()
+
+        elif p=="4":
+            goodteacher()
+
+        elif p=="5":
+            forloop()
+
+        elif p=="6":
+            whileloop()
+
+        elif p=="7":
+            helloworld()
+
+        elif p=="8":
+            helloworld()
+
+        elif p=="9":
+            helloworld()
         
-    if p=="2":
-        start()
-        goodbyeworld()
-        end()
+    else:
+        print("Invalid Option")
 
-    if p=="3":
-        start()
-        goodbyeperson()
-        end()
-
-    if p=="4":
-        start()
-        goodteacher()
-        end()
-
-    if p=="5":
-        start()
-        forloop()
-        end()
-
-    if p=="6":
-        start()
-        whileloop()
-        end()
-
-    if p=="7":
-        start()
-        helloworld()
-        end()
-
-    if p=="8":
-        start()
-        helloworld()
-        end()
-
-    if p=="9":
-        start()
-        helloworld()
-        end()
-
-    if p=="x":
-        start()
-        end()
+    end()

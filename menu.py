@@ -78,6 +78,15 @@ while True:
     
     if p in correct:
         if p=="x":
+            print("")
+            print("----End of Output -----------------------------")
+            print("")
+            print("")
+            print("")
+            input("Press Enter to Continue ")
+            break
+
+        elif p=="1":
             helloworld()
             
         elif p=="2":
@@ -96,13 +105,13 @@ while True:
             whileloop()
 
         elif p=="7":
-            helloworld()
+            print("Invalid Option")
 
         elif p=="8":
-            helloworld()
+            print("Invalid Option")
 
         elif p=="9":
-            helloworld()
+            print("Invalid Option")
         
     else:
         print("Invalid Option")
